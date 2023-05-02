@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 00;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    padding-left: 0px;
+    font-size: 3em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 0px;
+}
+
+.navigation a {
+    position: relative;
+    top: -10px;
+    left: 450px;
+    text-decoration:none;
+    color: #359382;
+    padding: 10px 19px;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: 800;
+}
+
+.navigation a:hover, .navigation a.active{
+    background: #237062d4;
+    text-decoration:none;
+    color: #ffffff;
+}
+.parallax {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 10em;
+    color:#359381ff;
+    text-shadow: 2px 2px 4px rgba(0 , 0 , 0 , .2);
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+.sec{
+    margin-top: 450px;
+    width:fit-content;
+    position:relative;
+    background: #003329;
+    padding: 100px;
+    text-align: justify;
+}
+.sec h2 {
+    font-size:  3em;
+    color: #359381;
+    margin-bottom: 10px;
+
+}
+.sec p{
+    font-size:1em;
+    color: #fff;
+    font: 30px;;
+}
+
+
+
+/* search bar style */
+.search{
+    position: absolute;
+        margin-top: 400px;
+        text-align: center;
+        width: 500px;
+
+    }
+
+    .search h4{
+        margin: 100px 0px 20px 0px;
+        font-size: 50px;
+    }
+    .search input[type=text]{
+        width: 100%;
+        border-radius: 30px 30px 30px 30px;
+        outline: none;
+        padding-left:  20px;
+        padding-top: 15px ;
+        padding-bottom: 10px;
+        border: solid 2px #003329ba;
+    }
+
+    .search a{
+        background-color: #3dbfa780;
+        margin-top: 20px;
+        width: 150px;
+        text-align: center;
+        margin-left: 10px;
+        color: #014739;
+    }
+
+    .search a:hover{
+        background-color: rgb(18, 136, 109);
+        color: #003329;
+    }
+
+
+    
